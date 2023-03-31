@@ -72,9 +72,9 @@ function showError(error){
     }
 
     function bg_temp(t){
-        t<10 ? $('.card').attr('class','card rainy')
-        : (t<30)&&(t>=10)? $('.card').attr('class','card medium')
-        :$('.card').attr('class','card sunny');
+        t<10 ? ([$('.details'),$('.card')].map(x=>x.attr('class','card rainy')))
+        : (t<25)&&(t>=10)? ([$('.details'),$('.card')].map(x=>x.attr('class','card medium')))
+        :([$('.details'),$('.card')].map(x=>x.attr('class','card sunny')));
     }
 
     //------Celcius to Farenheit

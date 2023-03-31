@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"name": "GitFirstWeek",
+			"path": "../../.."
+		},
+		{
+			"name": "Simon_Game",
+			"path": "../../../../OneDrive/Υπολογιστής/Simon_Game"
+		},
+		{
+			"name": "Weather_Aplicatiion",
+			"path": "../../../../OneDrive/Υπολογιστής/Weather_Aplicatiion"
+		},
+		{
+			"name": "3d_portfolio",
+			"path": "../../../../OneDrive/Υπολογιστής/3d_portfolio"
+		},
+		{
+			"name": "image_video_galery",
+			"path": "../../../../OneDrive/Υπολογιστής/image_video_galery"
+		},
+		{
+			"name": "improved-octo-bot",
+			"path": "../../../../improved-octo-bot"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GitFirstWeek",
+		"git.ignoreLimitWarning": true,
+		"liveSassCompile.settings.includeItems": [
+		       
+		
+		],
+		"compile-hero.disable-compile-files-on-did-save-code": false
+	}
+}
